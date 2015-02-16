@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA228259-AA56-FECD-1B98-0A81A92BEC49" name="SIM_participant">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SIM_Person_person_id" id="016788DA-269F-715C-91F1-236CE4D25D5A">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8625F2D9-51C4-247D-26B0-DB870E029883</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F28DD86-E305-3D16-B8BC-2D7D5446E6D6" referredColumn="8625F2D9-51C4-247D-26B0-DB870E029883"/>
+</associations>
+</Column>
+<Column name="SIM_project_project_id" id="ED34C008-BBFF-72B9-9E47-A94691A55255">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>CB7EECF0-D33C-4B9D-FAD6-AB217FFAF970</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78B7E96A-42A7-70EA-372B-0DDC4D61920A" referredColumn="CB7EECF0-D33C-4B9D-FAD6-AB217FFAF970"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72255ECC-3DB0-0D31-D180-D0DBF8FCC652" name="R3_PK">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="016788DA-269F-715C-91F1-236CE4D25D5A"/>
+<colUsage columnID="ED34C008-BBFF-72B9-9E47-A94691A55255"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6FC5362-C59C-CA75-825E-30D7FC6C828E" name="FK_ASS_12">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>AAB39737-EDE6-66CD-B409-DB6836850733</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="016788DA-269F-715C-91F1-236CE4D25D5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D592DE0C-75E3-CE56-08B5-1FF4790C2747" name="FK_ASS_13">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>AAB39737-EDE6-66CD-B409-DB6836850733</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED34C008-BBFF-72B9-9E47-A94691A55255"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

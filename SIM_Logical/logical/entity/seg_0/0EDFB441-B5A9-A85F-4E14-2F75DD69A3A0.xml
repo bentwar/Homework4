@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0EDFB441-B5A9-A85F-4E14-2F75DD69A3A0" name="SIM_participant">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:13:39 UTC</createdTime>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="42041C23-1777-ECC4-2DFC-35A7A03EBB5B" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="participant_id" id="A18957AB-6E79-7D23-7849-FD6BA2B4ECE5">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:13:47 UTC</createdTime>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<engineerTo>
+<item key="42041C23-1777-ECC4-2DFC-35A7A03EBB5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="person_id" id="2C9D1829-0A3C-241F-DC8C-0C745AE67477">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:16:37 UTC</createdTime>
+<generatorID>4FEA5B56-9556-3CFC-0448-24EEF11A6407</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<engineerTo>
+<item key="42041C23-1777-ECC4-2DFC-35A7A03EBB5B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FB3EFA3F-BAFD-30E2-B2CB-482E9E5B7A3D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="project_id" id="0CC50E57-5158-B098-5306-78B51B76FB07">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:22:53 UTC</createdTime>
+<generatorID>560D50A9-BE6C-8C18-B657-A146493816F6</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<engineerTo>
+<item key="42041C23-1777-ECC4-2DFC-35A7A03EBB5B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9A8AD60B-F1CC-FC6C-CC79-79D7FD495264</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4644F311-020F-4CD1-BB91-41E984F5149D" name="{entity} PK">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:17:15 UTC</createdTime>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<engineerTo>
+<item key="42041C23-1777-ECC4-2DFC-35A7A03EBB5B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A18957AB-6E79-7D23-7849-FD6BA2B4ECE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

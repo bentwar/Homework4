@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SIM_Conceptual" id="45127855-650F-E31A-39C8-96FBA01038D1" version="3.5">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:06:22 UTC</createdTime>
+<ownerDesignName>hw4Logical</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>45127855-650F-E31A-39C8-96FBA01038D1</designId>
+</OSDM_Design>

@@ -1,0 +1,104 @@
+drop view SIM_project_emp ;
+drop view SIM_manager ;
+drop view SIM_emp ;
+
+create view SIM_emp as
+SELECT PERSON_ID, TYPE, NAME, SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP, EMP_ID, HIRE_DATE, SALARY, STATUS
+FROM SIM_PERSON
+WHERE TYPE = 'PROJECT_EMPLOYEE' or TYPE = 'MANAGER' ;
+
+create view SIM_PROJECT_EMP as
+SELECT PERSON_ID, TYPE, NAME, SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP, EMP_ID, HIRE_DATE, SALARY, STATUS, TITLE, RATING, SIM_DEPT_DEPT_ID
+FROM SIM_PERSON
+WHERE TYPE = 'PROJECT_EMPLOYEE' ;
+
+create or replace TRIGGER PROJECT_EMPLOYEE_trigger
+     INSTEAD OF insert ON SIM_PROJECT_EMP
+     FOR EACH ROW
+BEGIN
+     insert into SIM_PERSON(
+        PERSON_ID,
+        TYPE,
+        NAME,
+        SSNUM,
+        GENDER,
+        BIRTH_DATE,
+        ADDRESS,
+        CITY,
+        STATE,
+        ZIP,
+        EMP_ID,
+        HIRE_DATE,
+        SALARY,
+        STATUS,
+        TITLE,
+        RATING,
+        SIM_DEPT_DEPT_ID)
+     VALUES (
+        :new.PERSON_ID,
+        'PROJECT_EMPLOYEE',
+        :new.NAME,
+        :new.SSNUM,
+        :new.GENDER,
+        :new.BIRTH_DATE,
+        :new.ADDRESS,
+        :new.CITY,
+        :new.STATE,
+        :new.ZIP,
+        :new.EMP_ID,
+        :new.HIRE_DATE,
+        :new.SALARY,
+        :new.STATUS,
+        :new.TITLE,
+        :new.RATING,
+        :new.SIM_DEPT_DEPT_ID) ;
+END;
+/
+
+create view SIM_MANAGER as
+SELECT PERSON_ID, TYPE, NAME, SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP, EMP_ID, HIRE_DATE, SALARY, STATUS, TITLE, BONUS, SIM_DEPT_DEPT_ID
+FROM SIM_PERSON
+WHERE TYPE = 'MANAGER' ;
+
+create or replace TRIGGER MANAGER_trigger
+     INSTEAD OF insert ON SIM_MANAGER
+     FOR EACH ROW
+BEGIN
+     insert into SIM_PERSON(
+        PERSON_ID,
+        TYPE,
+        NAME,
+        SSNUM,
+        GENDER,
+        BIRTH_DATE,
+        ADDRESS,
+        CITY,
+        STATE,
+        ZIP,
+        EMP_ID,
+        HIRE_DATE,
+        SALARY,
+        STATUS,
+        TITLE,
+        BONUS,
+        SIM_DEPT_DEPT_ID)
+     VALUES (
+        :new.PERSON_ID,
+        'MANAGER',
+        :new.NAME,
+        :new.SSNUM,
+        :new.GENDER,
+        :new.BIRTH_DATE,
+        :new.ADDRESS,
+        :new.CITY,
+        :new.STATE,
+        :new.ZIP,
+        :new.EMP_ID,
+        :new.HIRE_DATE,
+        :new.SALARY,
+        :new.STATUS,
+        :new.TITLE,
+        :new.BONUS,
+        :new.SIM_DEPT_DEPT_ID) ;
+END;
+/

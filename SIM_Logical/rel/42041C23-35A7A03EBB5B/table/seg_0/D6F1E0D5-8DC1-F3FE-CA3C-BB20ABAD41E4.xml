@@ -1,0 +1,354 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6F1E0D5-8DC1-F3FE-CA3C-BB20ABAD41E4" name="SIM_Person">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>79D1D7DD-6576-7798-EE41-859B5515906A</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="8625F2D9-51C4-247D-26B0-DB870E029883">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>FB3EFA3F-BAFD-30E2-B2CB-482E9E5B7A3D</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="219AE671-CD15-CB7D-8DFB-80C9DC7704EB">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>7DF2AB56-CBCD-A4D1-5F4C-62622ABA7DAB</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="92741727-7BB2-20EF-96B4-249029256E38">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>F7B1BDEF-BC58-B3CF-255B-0B864E4B4942</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="0B15429D-745D-EDEC-9943-2B4226736640">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>11CFEB9B-4173-8190-2854-13A3092110ED</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="2B2430EA-FA5B-DB00-C010-9FE8461FCED6">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>F395BD0D-EAD6-58E0-26AB-EB962A3CB171</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="4F980932-6D29-60B4-4E9B-B648A40A5042">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>03461D25-0B81-0F82-10F2-E00308984E47</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="A5CD39C7-DC56-4DB5-BB90-3279F224C12D">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>9ECA8DDF-B416-48E2-2F3C-B7B9BBA717B9</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="403D7191-54F8-1AE8-44EB-6844C3F79345">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>C41703B9-8405-0FE6-AC3E-5201CB183E0F</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="49BF3773-2D0C-8E1B-319D-3DFC13CED420">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>BEA562DC-7846-7A31-1FE1-79DBABA310F9</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="23670F23-AA00-3CCA-DA1D-FACD11CBBD74">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>30AD3D78-A7B9-800E-B317-635E8E7583E5</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="230D9F15-972D-E45A-B1AB-E0F55DFBF472">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>BC8BF8A5-34F5-48D0-37D0-ED8B078F7D3C</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id" id="D93DB13C-1AD5-33B5-89DA-44A53E4D9949">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>FF8C60A4-16B8-978F-2BC2-20A7D9A83D8B</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>B478846B-7E35-DC8C-58F7-A6D2A20516C4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07274C15-4BDA-D573-4004-F29A5D876DBC" referredColumn="B478846B-7E35-DC8C-58F7-A6D2A20516C4"/>
+</associations>
+</Column>
+<Column name="emp_id" id="5A1EB5BC-27E8-23E3-FC19-1E749DCBEF69">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>058D0DDE-A8F0-3304-9D86-7172F41FD92F</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="2E6A02E3-E637-6782-6CFE-F740B99EF2A6">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>57E421EC-63D0-9256-FA86-47123D765888</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="F5B32B17-9C6C-4273-6573-08B1463885F3">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>7B0A0C53-DAD3-E8EE-AAF3-505C32101A4F</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="46E00000-E651-BF68-03C6-8CDEB429FC33">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>551D87F7-6732-CA4A-4304-CB61C01A4695</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="22875AAB-4B18-0FDB-C15F-603CE76B4AD8">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>BBAB23F7-DEF0-FDEE-AC63-95ABE9F396B0</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="67C2B96F-F9E5-93F0-18C7-5DD27BD159C3">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 18:07:10 UTC</createdTime>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titile" id="389F3A3E-1691-019F-A124-1209180657BE">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<generatorID>F75A555E-0455-A8CD-4EB7-E11FF3C3DBF7</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating1" id="CE51450C-091B-06AF-CA59-EAF377521A19">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<generatorID>C731B3FA-003D-B134-5320-22656A385411</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_id1" id="385AF5FA-C35C-0FC5-075A-8F5D29758D91">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<generatorID>B4A7C4C6-665B-8B79-B933-82B4C1D099EF</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date1" id="CC55039F-FB60-1033-F2A2-8FD49514C023">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<generatorID>0CB26CE4-C939-5DDD-DD83-99628769C4E7</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary1" id="DC6C996F-B232-AC47-4D86-B5E999EBF8E0">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<generatorID>4E3A8A53-CDD3-C701-CB3A-A7706FB26130</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status1" id="ACA126A7-CD57-5EB8-79FD-2B4A209DC3D0">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<generatorID>E02433D1-898E-3BCC-4793-D5BAB555AA33</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus1" id="DF2E8F81-64A8-4CEB-D355-0D47F8C94554">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<generatorID>3339DB13-0245-A21D-7E93-15FDF1AF42B4</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type1" id="0E34881F-FF0E-51BD-43AA-01EDFB2BE334">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<generatorID>5808AA79-656B-BD7B-A3D9-A0F4E87C13F6</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="943B037B-196A-9283-5872-52BDB0F0F1AE" name="SIM_Person_PK">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>8EA0823F-5B67-918B-74E6-E11E5A1E5E0A</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8625F2D9-51C4-247D-26B0-DB870E029883"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5941255-B4F4-E7B4-8B80-412E4208980B" name="SIM_Person_SIM_dept_FKv1">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>75B4FA57-36DA-F8D6-DA3D-25B55E1957D2</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="BDFAE2B3-5056-16B9-C904-5C93D0143767" name="SIM_Person__IDX">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1060F5FB-FB70-7F2D-2380-BEEEE65A9F22</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="D995D04E-3D2E-9332-3359-AEAEF5B9D7C3" name="SIM_Person_SIM_dept_FK">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-13 17:55:17 UTC</createdTime>
+<generatorID>CB3C308C-1F07-6CA1-C518-C2F21AC68E5B</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D93DB13C-1AD5-33B5-89DA-44A53E4D9949"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

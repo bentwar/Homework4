@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E849F6BE-C9BC-F346-890B-D9A362B82777" name="SIM_dept">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>D65CE714-2689-9865-D8D9-11FB21AD8259</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dept_id" id="B478846B-7E35-DC8C-58F7-A6D2A20516C4">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>0AD19AC2-78A1-F405-170E-B21CBE7DC8FB</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="360B79BE-E469-607F-E3C3-4411C09F8623">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>3056B31A-69D8-5778-F2E2-24ABA7F9590E</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="C74FCB0E-DC3E-BD08-E653-D79314AAF410">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>0F6431EB-F814-EDFB-11A7-5617B861150E</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_Person_emp_id" id="57E85738-4F13-AA0F-8A75-D605B93BF67B">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>24C0C1C5-FD4C-3007-4C3F-2C93E4BF46A7</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_Person_person_id" id="D5545B62-5DF9-F86E-B367-7FBE71A2CE29">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<generatorID>1117B298-C250-E977-85C4-BD44EE03F16A</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>8625F2D9-51C4-247D-26B0-DB870E029883</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="495B183C-6309-9D18-8AEC-1AFBB6DBA7A4" referredColumn="8625F2D9-51C4-247D-26B0-DB870E029883"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41099FC3-E723-91BB-7E72-90F7FCD15E99" name="SIM_dept_PK">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-12 19:21:33 UTC</createdTime>
+<generatorID>9F1A0472-537E-F9FE-AF89-04C6428EEB88</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B478846B-7E35-DC8C-58F7-A6D2A20516C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EFD65C3-C5CF-17FE-C210-BDEEE835437B" name="SIM_dept__IDX">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1060F5FB-FB70-7F2D-2380-BEEEE65A9F22</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D5545B62-5DF9-F86E-B367-7FBE71A2CE29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46681C49-FA65-5513-2784-9FE94F0B827D" name="SIM_dept_SIM_Person_FK">
+<createdBy>TinVo</createdBy>
+<createdTime>2015-02-16 23:23:59 UTC</createdTime>
+<generatorID>1060F5FB-FB70-7F2D-2380-BEEEE65A9F22</generatorID>
+<ownerDesignName>SIM_Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5545B62-5DF9-F86E-B367-7FBE71A2CE29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
