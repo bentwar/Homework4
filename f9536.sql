@@ -27,7 +27,7 @@ prompt APPLICATION 9536 - Homework4
 -- Application Export:
 --   Application:     9536
 --   Name:            Homework4
---   Date and Time:   23:34 Monday February 16, 2015
+--   Date and Time:   17:06 Tuesday February 17, 2015
 --   Exported By:     BENTWAR@GMAIL.COM
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -40,7 +40,7 @@ prompt APPLICATION 9536 - Homework4
 --     Items:                   38
 --     Processes:               16
 --     Regions:                 21
---     Buttons:                 20
+--     Buttons:                 23
 --     Dynamic Actions:         12
 --   Shared Components:
 --     Logic:
@@ -107,7 +107,7 @@ wwv_flow_api.create_flow(
 ,p_rejoin_existing_sessions=>'N'
 ,p_csv_encoding=>'Y'
 ,p_last_updated_by=>'BENTWAR@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150215175548'
+,p_last_upd_yyyymmddhh24miss=>'20150217170420'
 ,p_ui_type_name => null
 );
 end;
@@ -8258,7 +8258,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'BENTWAR@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150215175532'
+,p_last_upd_yyyymmddhh24miss=>'20150217170113'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(533305043542539717)
@@ -8285,6 +8285,22 @@ wwv_flow_api.create_page_plug(
 ,p_attribute_01=>'N'
 ,p_attribute_02=>'TEXT'
 ,p_attribute_03=>'Y'
+);
+wwv_flow_api.create_page_button(
+ p_id=>wwv_flow_api.id(587442387987264133)
+,p_button_sequence=>170
+,p_button_plug_id=>wwv_flow_api.id(533305043542539717)
+,p_button_name=>'P5_CREATEDEPT'
+,p_button_static_id=>'P5_CREATEDEPT'
+,p_button_action=>'REDIRECT_PAGE'
+,p_button_template_id=>wwv_flow_api.id(531640264191472648)
+,p_button_image_alt=>'Create Dept'
+,p_button_position=>'BODY'
+,p_button_alignment=>'LEFT'
+,p_button_redirect_url=>'f?p=&APP_ID.:9:&SESSION.::&DEBUG.:::'
+,p_grid_new_grid=>false
+,p_grid_new_row=>'Y'
+,p_grid_new_column=>'Y'
 );
 wwv_flow_api.create_page_button(
  p_id=>wwv_flow_api.id(533306103641539718)
@@ -9044,7 +9060,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'BENTWAR@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150215175548'
+,p_last_upd_yyyymmddhh24miss=>'20150217170240'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(533391644823665114)
@@ -9071,6 +9087,22 @@ wwv_flow_api.create_page_plug(
 ,p_attribute_01=>'N'
 ,p_attribute_02=>'TEXT'
 ,p_attribute_03=>'Y'
+);
+wwv_flow_api.create_page_button(
+ p_id=>wwv_flow_api.id(587819129842259883)
+,p_button_sequence=>170
+,p_button_plug_id=>wwv_flow_api.id(533391644823665114)
+,p_button_name=>'P7_CREATEDEPT'
+,p_button_static_id=>'P7_CREATEDEPT'
+,p_button_action=>'REDIRECT_PAGE'
+,p_button_template_id=>wwv_flow_api.id(531640264191472648)
+,p_button_image_alt=>'Create Dept'
+,p_button_position=>'BODY'
+,p_button_alignment=>'LEFT'
+,p_button_redirect_url=>'f?p=&APP_ID.:9:&SESSION.::&DEBUG.:::'
+,p_grid_new_grid=>false
+,p_grid_new_row=>'Y'
+,p_grid_new_column=>'Y'
 );
 wwv_flow_api.create_page_button(
  p_id=>wwv_flow_api.id(533392779811665115)
@@ -9681,7 +9713,8 @@ wwv_flow_api.create_worksheet_rpt(
 ,p_status=>'PUBLIC'
 ,p_is_default=>'Y'
 ,p_display_rows=>50
-,p_report_columns=>'DEPT_ID:NAME:LOCATION:CREATED_BY:ROW_VERSION_NUMBER:UPDATED:UPDATED_BY:EMP_ID'
+,p_view_mode=>'REPORT'
+,p_report_columns=>'DEPT_ID:NAME:LOCATION:CREATED_BY:ROW_VERSION_NUMBER:UPDATED:UPDATED_BY:'
 ,p_flashback_enabled=>'N'
 );
 wwv_flow_api.create_page_button(
@@ -10200,7 +10233,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'BENTWAR@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20150215175014'
+,p_last_upd_yyyymmddhh24miss=>'20150217170420'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(533502758622699128)
@@ -10227,6 +10260,22 @@ wwv_flow_api.create_page_plug(
 ,p_attribute_01=>'N'
 ,p_attribute_02=>'TEXT'
 ,p_attribute_03=>'Y'
+);
+wwv_flow_api.create_page_button(
+ p_id=>wwv_flow_api.id(587442756528282882)
+,p_button_sequence=>40
+,p_button_plug_id=>wwv_flow_api.id(533502758622699128)
+,p_button_name=>'P11_CREATEDEPT'
+,p_button_static_id=>'P11_CREATEDEPT'
+,p_button_action=>'REDIRECT_PAGE'
+,p_button_template_id=>wwv_flow_api.id(531640264191472648)
+,p_button_image_alt=>'Create Dept'
+,p_button_position=>'BODY'
+,p_button_alignment=>'LEFT'
+,p_button_redirect_url=>'f?p=&APP_ID.:9:&SESSION.::&DEBUG.:::'
+,p_grid_new_grid=>false
+,p_grid_new_row=>'Y'
+,p_grid_new_column=>'Y'
 );
 wwv_flow_api.create_page_button(
  p_id=>wwv_flow_api.id(533503834925699129)
