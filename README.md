@@ -1,8 +1,8 @@
 # Homework 4
 
-Name: 
-EID : 
-CSID:
+Name: Ben Warren
+EID : btw447
+CSID: warren
 
 Name: Tin Vo
 EID : tnv269
